@@ -249,10 +249,7 @@ print('''LEGEND:
     
 '3) COLUMN 'amplicon size'= is the size of amplicon IMPORTANT see formatting of fasta input file, the intestation must to be: >chr1:start-end PCR_ID
     
-'4) COLUMN '%duplicate sequence'= percentage of duplicated base in sequence. ATTENTION, if result >100%, could be the following case:
-               example - in sequence tccctccc are counted 8+6 repetitions, on 8 bases of the overall sequence: 
-                                                              -2x tccc|tccc  (4 different bases)=8 repetitions
-                                                              -2x ccc       (3 single bases)=6 repetitions ''')
+'4) COLUMN '%duplicate sequence'= percentage of duplicated base in sequence. ''')
 print('OUTPUT FILE IS SAVED!!!')
 print('THANKS ')
     
