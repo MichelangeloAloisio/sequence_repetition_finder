@@ -6,7 +6,7 @@ import pandas as pd
 
 
 
-file=open('3_input_fasta_poolprimer.txt', 'r')
+file=open('sequence.fasta', 'r')
 
 
 def single_repetitions(range_, start_coordinate, string,dict_single_repetitions):
