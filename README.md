@@ -1,6 +1,6 @@
 ########################################################################################################################################################################
 ########################################################################################################################################################################
-SEQUENCE REPETITION FINDER_v1 is a python script written in python 3,  useful to define the percentage of repetitions and the GC% in DNA FASTA sequences. 
+SEQUENCE REPETITION FINDER_v1 is a python script written in python 3,  useful to define the percentage of repetitions and the GC% of DNA FASTA sequences. 
 After the uploading of a fasta sequence (see fasta example in file: sequence.fasta) it reads from file:  
 1) coordinate start end of the sequence in order to compute the size;
 2) the name of the sequence (in the example is PCR10: >chr1:0-100 PCR10)
