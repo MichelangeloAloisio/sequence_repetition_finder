@@ -126,21 +126,6 @@ print(result)
 
 
 
-print('''LEGEND: 
-'1) COLUMN name= type of repetitions ex: 1bp x3= aaa other 3 single nucleotides
-                                         2bp x3= tatata other 2 random bases
-                                         3bp x4= tcctcctcctcc other 3 random not repeated bases
-                                         etcc..
-    
-'2) COLUMN elements= number of times that the repetition described in the column name,
-                             is occurred in the sequence (identified in ID)
-    
-'3) COLUMN 'amplicon size'= is the size of amplicon IMPORTANT see formatting of fasta input file, the intestation must to be: >chr1:start-end PCR_ID
-    
-'4) COLUMN '%duplicate sequence'= percentage of duplicated base in sequence. ATTENTION, if result >100%, could be the following case:
-               example - in sequence tccctccc are counted 8+6 repetitions, on 8 bases of the overall sequence: 
-                                                              -2x tccc|tccc  (4 different bases)=8 repetitions
-                                                              -2x ccc       (3 single bases)=6 repetitions ''')
-print('OUTPUT FILE IS SAVED!!!')
+print('OUTPUT FILE IS SAVED IN THE CURRENT FOLDER!!!')
 print('THANKS ')
     
