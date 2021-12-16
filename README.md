@@ -36,13 +36,13 @@ FILE
 
 
 OUTPUT FILE LEGEND:
-1) COLUMN name= type of repetitions ex: 1bp x2= aaa other 3 single nucleotides
+1) COLUMN name= type of repetitions ex: 1bp x3= aaa other 3 single nucleotides
 	                                     2bp x3= tatata other 2 random bases
 	                                     3bp x4= tcctcctcctcc other 3 random not repeated bases
 	                                     etcc..
 	
 '2) COLUMN elements= number of times that the repetition described in the column name,
-	                         is occurred in the sequence (identified in ID)
+	                         is occurred in the sequence (identified in ID) (exaple 2bp x3rep found n time in the full sequence)
     
 '3) COLUMN 'amplicon size'= is the size of the amplicon.
     
