@@ -81,22 +81,17 @@ for x in file:
                                         for change in range(gen[0],gen[-1]+1):
                                                 text[change]=text[change].upper()
                                         if len(set(formatted_x[gen[0]:gen[-1]+1]))==1:
-                                            #print('OUTPUT','1bp x', len(gen))
                                             lista_count_repetitions.append('1 bp x'+ str(len(gen)))
                                         else:
                                         	if (len(formatted_x[gen[0]:gen[-1]+1]) % 2) == 0:
                                         		if len(textwrap.wrap(formatted_x[gen[0]:gen[-1]+1], 2))==1:
-                                        			#print( 'OUTPUT','2bp x', len(textwrap.wrap(formatted_x[gen[0]:gen[-1]+1], 2)))
                                         			lista_count_repetitions.append('2 bp x'+ str(len(textwrap.wrap(formatted_x[gen[0]:gen[-1]+1], 2))))
                                         		else:
-                                        			#print('OUTPUT',windows_lenght,'bp x', len(textwrap.wrap(formatted_x[gen[0]:gen[-1]+1], windows_lenght)))
                                         			lista_count_repetitions.append(str(windows_lenght)+' bp x'+str(len(textwrap.wrap(formatted_x[gen[0]:gen[-1]+1], windows_lenght))))
                                         	else:
                                         		if len(textwrap.wrap(formatted_x[gen[0]:gen[-1]], 2))==1:
-                                        			#print( 'OUTPUT','2bp x', len(textwrap.wrap(formatted_x[gen[0]:gen[-1]], 2)))
                                         			lista_count_repetitions.append('2 bp x'+ str(len(textwrap.wrap(formatted_x[gen[0]:gen[-1]], 2))))
                                         		else:
-                                        			#print('OUTPUT',windows_lenght,'bp x', len(textwrap.wrap(formatted_x[gen[0]:gen[-1]], windows_lenght)))
                                         			lista_count_repetitions.append(str(windows_lenght)+' bp x'+ str(len(textwrap.wrap(formatted_x[gen[0]:gen[-1]], windows_lenght))))
             N_Upper_case=len(re.findall(r'[A-Z]',''.join(text)))
             N_lenght_string=len(''.join(text))
