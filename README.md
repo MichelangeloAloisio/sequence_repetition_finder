@@ -9,7 +9,7 @@ After the uploading of a fasta sequence (see fasta format example in the file: s
 2) the sequence string.
 
 
-As a default setting, it searches, for upload sequences, 3 or more repetitions of N-bases (bp) and counts their occurrences. The N-bases windows searched ranging with the default cut-off from 1 to 10. As an example to understand how it works, in the input string 'aggaaaatctctcggggtata', it searches the following number of N-bases:
+As a default setting, it searches, for upload sequences, 3 or more repetitions of N-bases (bp) and counts their occurrences in the full string. The N-bases windows searched ranging with the default cut-off from 1 to 10. As an example to understand how it works, in the input string 'aggaaaatctctcggggtata', it searches the following number of N-bases:
 
 - N-bases: 10 bp -> none repetitions of 10 bp found; 
 - N-bases: 9 bp -> none repetitions of 9 bp found;
