@@ -1,6 +1,6 @@
 ################################################################################################################################################################################
 ########################################################          2)string_complexity_computing_v1                     #########################################################
-####CONTACT michelangelo.aloisio@burlo.trieste.it
+####CONTACT michelangelo.aloisio@irccsdebellis.it
 
 import re
 from collections import Counter
